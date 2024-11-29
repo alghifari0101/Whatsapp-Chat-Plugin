@@ -99,7 +99,7 @@ function ggi_whatsapp_chat_settings_page() {
 // Fungsi untuk menambahkan counter klik di frontend
 function ggi_whatsapp_dynamic_button() {
     $phone_number = get_option('ggi_whatsapp_phone', '6281277222991');
-    $message = get_option('ggi_whatsapp_message', 'Halo, saya ingin bertanya tentang GGi Hotel Batam.');
+    $message = get_option('ggi_whatsapp_message', 'Halo, saya ingin bertanya tentang ....');
 
     echo '<div id="ggi-whatsapp-chat" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
         <a href="https://wa.me/' . $phone_number . '?text=' . urlencode($message) . '" target="_blank" style="text-decoration: none;" onclick="ggiRecordClick()">
