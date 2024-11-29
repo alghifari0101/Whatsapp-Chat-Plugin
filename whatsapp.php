@@ -69,7 +69,7 @@ function ggi_whatsapp_chat_settings_page() {
 
     // Ambil pengaturan nomor dan pesan
     $phone = get_option('ggi_whatsapp_phone', '6281277222991');
-    $message = get_option('ggi_whatsapp_message', 'Halo, saya ingin bertanya tentang GGi Hotel Batam.');
+    $message = get_option('ggi_whatsapp_message', 'Halo, saya ingin bertanya tentang ...');
 
     // Ambil jumlah klik
     $click_count = get_option('ggi_whatsapp_click_count', 0);
