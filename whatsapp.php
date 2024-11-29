@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 // Fungsi untuk menambahkan WhatsApp chat ke footer
 function ggi_whatsapp_chat_button() {
     $phone_number = get_option('ggi_whatsapp_phone', '62123456789'); // Ganti dengan nomor WhatsApp Anda
-    $message = get_option('ggi_whatsapp_message', 'Halo, saya ingin bertanya tentang GGi Hotel Batam.'); // Pesan default
+    $message = get_option('ggi_whatsapp_message', 'Halo, saya ingin bertanya tentang .....'); // Pesan default
 
     echo '<div id="ggi-whatsapp-chat" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
         <a href="https://wa.me/' . $phone_number . '?text=' . urlencode($message) . '" target="_blank" style="text-decoration: none;" onclick="ggiRecordClick()">
